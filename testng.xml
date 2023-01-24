@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.mycompany.module.Listeners"></listener>
+		<listener class-name="com.mycompany.module.ExtentReporterNG"></listener>
+	</listeners>
+
+	<test name="testng">
+		<classes>
+
+			<class name="com.mycompany.runner.RunTest"></class>
+
+			<!-- <class name="com.mycompany.module.test.AdminTest"> </class> <class 
+				name="com.mycompany.module.test.EntryCodeTest"> </class> <class name="com.mycompany.module.test.PhoneCallTest"> 
+				</class> -->
+
+		</classes>
+	</test> <!-- testng -->
+</suite> <!-- Suite -->
